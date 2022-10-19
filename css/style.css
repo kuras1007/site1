@@ -1,0 +1,284 @@
+* {
+  box-sizing: border-box;
+}
+
+body {
+  background-color: #272336;
+  margin: auto;
+  color: #fff;
+  background-image: url(../img/sectionmenu.jpg);
+}
+
+img {
+  max-width: 100%;
+  max-height: 100%;
+}
+
+.container {
+  max-width: 1100px;
+  margin: auto;
+}
+
+a {
+  color: #fff;
+  text-decoration: none;
+}
+
+span {
+  color: #fff;
+}
+
+.head-wrapper {
+  display: flex;
+  justify-content: space-between;
+  margin-top: 10px;
+  margin-bottom: 80px;
+}
+
+.button-logo {
+  background-color: rgba(199, 146, 146, 0.662745098);
+  font-size: 18px;
+  border: none;
+  border-radius: 500px;
+  width: 140px;
+  height: 50px;
+}
+
+.naw-button {
+  background-color: #A52A2A;
+  width: 90px;
+  height: 50px;
+  border: none;
+  border-radius: 40px;
+  margin-right: 20px;
+  transition: 0.3s linear;
+  font-size: 18px;
+}
+.naw-button:last-child {
+  margin-right: 0px;
+}
+.naw-button:hover {
+  background-color: #8b5353;
+}
+
+.section-wrapper {
+  background-image: url(../img/section_images.jpg);
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  width: 1110px;
+  height: 500px;
+  border-radius: 200px;
+  margin-bottom: 120px;
+}
+
+.section-ul {
+  padding: 0;
+  margin: 0;
+  margin-left: 60px;
+}
+
+.section-li {
+  list-style-type: none;
+  font-size: 23px;
+  margin: 20px 0px;
+}
+
+.lis {
+  margin-left: 17px;
+}
+
+.lis1 {
+  margin-left: 37px;
+}
+
+.lis2 {
+  margin-left: 37px;
+}
+
+.lis3 {
+  margin-left: 17px;
+}
+
+.section-img {
+  background-image: url(../img/kk.jpg);
+  width: 440px;
+  height: 400px;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  border-radius: 40%;
+}
+
+.button-wrapper {
+  display: flex;
+  justify-content: center;
+}
+
+.button-button {
+  padding-top: 2px;
+  border-right: 10px solid rgba(165, 42, 42, 0.631372549);
+  border-left: 10px solid rgba(165, 42, 42, 0.6901960784);
+  border-top: 3px solid rgba(21, 255, 0, 0.3098039216);
+  border-bottom: 3px solid rgba(217, 255, 0, 0.6509803922);
+  background-color: #348d80;
+  width: 250px;
+  height: 50px;
+  border-radius: 35px;
+  margin-right: 70px;
+  transition: 0.3s linear;
+}
+.button-button:hover {
+  background-color: black;
+}
+.button-button:last-child {
+  margin-right: 0px;
+}
+
+.button-links {
+  color: #fff;
+  font-size: 17px;
+}
+
+p {
+  margin-top: 30px;
+  color: #fff;
+}
+
+@media screen and (max-width: 1356px) {
+  .container {
+    max-width: 900px;
+  }
+  .section-wrapper {
+    width: 900px;
+    height: 348px;
+  }
+  .section-img {
+    width: 340px;
+    height: 300px;
+    border-radius: 100px;
+  }
+}
+@media screen and (max-width: 970px) {
+  .container {
+    max-width: 700px;
+  }
+  .section-wrapper {
+    width: 700px;
+    height: 348px;
+  }
+  .section-li {
+    font-size: 18px;
+  }
+  .section-img {
+    width: 280px;
+    height: 240px;
+    border-radius: 100px;
+  }
+  .button-links {
+    font-size: 12px;
+  }
+}
+@media screen and (max-width: 760px) {
+  .container {
+    max-width: 755px;
+    margin: 0px;
+  }
+  .section-wrapper {
+    width: 655px;
+    height: 348px;
+  }
+  .section-li {
+    font-size: 18px;
+  }
+  .section-img {
+    width: 280px;
+    height: 240px;
+    border-radius: 100px;
+  }
+  p {
+    font-size: 12px;
+    font-weight: normal;
+  }
+}
+@media screen and (max-width: 650px) {
+  .container {
+    max-width: 500px;
+    margin: auto;
+  }
+  .section-wrapper {
+    width: 500px;
+    height: 348px;
+  }
+  .section-li {
+    font-size: 18px;
+  }
+  .section-img {
+    width: 140px;
+    height: 160px;
+    border-radius: 100px;
+  }
+  .button-links {
+    color: #fff;
+    font-size: 10px;
+  }
+  p {
+    display: none;
+  }
+  .button-button {
+    height: 60px;
+  }
+}
+@media screen and (max-width: 500px) {
+  .container {
+    max-width: 490px;
+    margin: 0;
+  }
+  .section-wrapper {
+    width: 100%;
+    height: 348px;
+  }
+  .section-img {
+    width: 100px;
+    height: 100px;
+  }
+  .section-li {
+    font-size: 14px;
+  }
+  .section-ul {
+    margin-left: 31px;
+  }
+  .naw-button {
+    width: 70px;
+    height: 40px;
+  }
+  .button-link {
+    font-size: 13px;
+  }
+  .button-logo {
+    width: 100px;
+    height: 50px;
+  }
+  .button-button {
+    margin-right: 40px;
+  }
+}
+@media screen and (max-width: 400px) {
+  .naw-button {
+    width: 52px;
+    height: 40px;
+  }
+  .button-link {
+    font-size: 9px;
+  }
+  .button-logo {
+    width: 80px;
+    height: 40px;
+  }
+  span {
+    font-size: 11px;
+  }
+  .button-button {
+    margin-right: 15px;
+  }
+}/*# sourceMappingURL=style.css.map */
